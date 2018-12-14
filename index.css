@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@@font-face {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+    font-family: "Open Sans";
+    font-weight: 400px;
+    background-image:url("./images/bg-desktop.svg");
+    background-size:cover;
+    background-color: hsl(257, 40%, 49%);
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color:white;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+h1 {
+    font-size:210%;
+    font-weight: 400px;
+    font-family: "Poppins";
+    font-size:250%;
+}
+
+
+/*flowgrid settings*/
+
+.flowgrid{
+  display:flex;
+  flex-wrap: nowrap;
+}
+
+.fullCard{
+  padding:2px;
+}
+
+.cardText{
+}
+
+.cardContent{
+
+}
+
+#illustration {
+  margin-top:108px;
+
+}
+
+#maintext {
+  padding-top:110px;
+  padding-left: 50px;
+}
