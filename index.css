@@ -14,14 +14,14 @@ body {
     padding-left: 5vw;
     padding-right: 5vw;
     color:white;
+    font-size: 115%
 }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 h1 {
-    font-size:210%;
-    font-weight: 400px;
+    font-weight: 700px;
     font-family: "Poppins";
     font-size:250%;
 }
@@ -45,12 +45,34 @@ h1 {
 
 }
 
+.social {
+  height: 5vh;
+}
+
+footer {
+  text-align: right;
+  fill: white;
+}
+
+#button{
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  width: 10vw;
+  height:6vh;
+  border-radius:  3vh;
+  text-align: center;
+  line-height: 6vh;
+  box-shadow: 2px 2px 15px #333333;
+  font-size: 120%;
+}
+
 #illustration {
   margin-top:108px;
-
+  width:55vw;
 }
 
 #maintext {
   padding-top:110px;
   padding-left: 50px;
+  width:40vw;
 }
