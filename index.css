@@ -5,74 +5,155 @@
   font-family: 'Poppins', sans-serif;
   font-family: 'Open Sans', sans-serif;
 }
-body {
-    font-family: "Open Sans";
-    font-weight: 400px;
-    background-image:url("./images/bg-desktop.svg");
-    background-size:cover;
-    background-color: hsl(257, 40%, 49%);
-    padding-left: 5vw;
-    padding-right: 5vw;
-    color:white;
-    font-size: 115%
+
+
+@media only screen and (max-width: 400px) {
+    body {
+      font-family: "Open Sans";
+      font-weight: 400px;
+      background-image:url("./images/bg-mobile.svg");
+      background-repeat: no-repeat;
+      background-color: hsl(257, 40%, 49%);
+      color:white;
+      font-size: 115%;
+    }
+
+
+      h1 {
+        font-weight: 700px;
+        font-family: "Poppins";
+        font-size:150%;
+        text-align: center;
+    }
+
+
+      /*flowgrid settings*/
+
+      .flowgrid{
+        display:flex;
+        flex-flow: column;
+      }
+
+      .fullCard{
+        padding:3vw;
+      }
+
+      .cardText{
+      }
+
+      .cardContent{
+
+      }
+
+      .social {
+        height: 4vh;
+        padding-top: 2vh;
+      }
+
+      footer {
+        text-align: center;
+        fill: white;
+      }
+
+      #logo {
+        width: 50vw;
+        left: 0;
+      }
+
+      #button{
+        background-color: white;
+        color: hsl(257, 40%, 49%);
+        width: 55vw;
+        height:5vh;
+        border-radius:  2.5vh;
+        text-align: center;
+        line-height: 5vh;
+        box-shadow: 2px 2px 15px #333333;
+        font-size: 90%;
+        margin-left: 10vw;
+      }
+
+      #illustration {
+        width:75vw;
+        margin-left: 5vw;
+      }
+
+      #maintext {
+        text-align: center;
+        width:75vw;
+        margin-left: 5vw;
+      }
+
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+@media only screen and (min-width: 401px) {
+  body {
+      font-family: "Open Sans";
+      font-weight: 400px;
+      background-image:url("./images/bg-desktop.svg");
+      background-repeat: no-repeat;
+      background-color: hsl(257, 40%, 49%);
+      padding-left: 5vw;
+      padding-right: 5vw;
+      color:white;
+      font-size: 115%
+  }
 
-h1 {
+  h1 {
     font-weight: 700px;
     font-family: "Poppins";
     font-size:250%;
 }
 
 
-/*flowgrid settings*/
+  /*flowgrid settings*/
 
-.flowgrid{
-  display:flex;
-  flex-wrap: nowrap;
-}
+  .flowgrid{
+    display:flex;
+    flex-wrap: nowrap;
+  }
 
-.fullCard{
-  padding:2px;
-}
+  .fullCard{
+    padding:2px;
+  }
 
-.cardText{
-}
+  .cardText{
+  }
 
-.cardContent{
+  .cardContent{
 
-}
+  }
 
-.social {
-  height: 5vh;
-}
+  .social {
+    height: 5vh;
+  }
 
-footer {
-  text-align: right;
-  fill: white;
-}
+  footer {
+    text-align: right;
+    fill: white;
+  }
 
-#button{
-  background-color: white;
-  color: hsl(257, 40%, 49%);
-  width: 10vw;
-  height:6vh;
-  border-radius:  3vh;
-  text-align: center;
-  line-height: 6vh;
-  box-shadow: 2px 2px 15px #333333;
-  font-size: 120%;
-}
+  #button{
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    width: 10vw;
+    height:6vh;
+    border-radius:  3vh;
+    text-align: center;
+    line-height: 6vh;
+    box-shadow: 2px 2px 15px #333333;
+    font-size: 120%;
+  }
 
-#illustration {
-  margin-top:108px;
-  width:55vw;
-}
+  #illustration {
+    margin-top:108px;
+    width:55vw;
+  }
 
-#maintext {
-  padding-top:110px;
-  padding-left: 50px;
-  width:40vw;
+  #maintext {
+    padding-top:110px;
+    padding-left: 50px;
+    width:40vw;
+  }
+
 }
